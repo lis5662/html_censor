@@ -6,20 +6,84 @@
     <title>Website structure</title>
 
     <style>
-        div {
-            background: white;
-            outline: 2px solid rgb(51, 73, 133);
+        .box {
             border: 2px solid black;
-            border-radius: 10px;
             padding: 10px;
-            color: black;
             text-align: center;
             font-weight: bold;
         }
         
-        .name {
-            width: 960px;
+        .wrapper {
+            width: 1005px;
             margin: 0 auto;
+        }
+        
+        .adbanner {
+            background: white;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        .navbar {
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid black;
+            text-align: center;
+            word-spacing: 50px;
+            background: white;
+            font-size: 130%;
+            font: Arial;
+        }
+        
+        .navbar li {
+            display: inline;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: gray;
+        }
+        
+        .subnav {
+            background: coral;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .logosearch {
+            background: purple;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .topic {
+            background: green;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .politics {
+            background: red;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .blogs {
+            background: chocolate;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .business {
+            background: aquamarine;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
         }
     </style>
 
@@ -27,15 +91,26 @@
 
 
 <body>
-    <div class=".name">
-        <div class="div">Ad Banner</div>
-        <div class="div">nav bar</div>
-        <div class="div">sub nav</div>
-        <div class="div">Logo and Search(Header)</div>
-        <div class="div">Topic of the day</div>
-        <div class="div">Politics</div>
-        <div class="div">Blogs</div>
-        <div class="div">Business</div>
+    <div class="wrapper">
+        <div class="adbanner">
+            <img class="adbanner" src="images/Stone-island-top-view-sea-waves_1920x1080.jpg">
+        </div>
+
+        <div class="nav">
+            <ul class="navbar">
+                <li><a href="">Бизнес</a></li>
+                <li><a href="">Война</a></li>
+                <li><a href="">Блоги</a></li>
+                <li><a href="">Курс-Валют</a></li>
+                <li><a href="">Биржа</a></li>
+            </ul>
+        </div>
+        <div class="subnav">sub nav</div>
+        <div class="logosearch">Logo and Search(Header)</div>
+        <div class="topic">Topic of the day</div>
+        <div class="politics">Politics</div>
+        <div class="blogs">Blogs</div>
+        <div class="business">Business</div>
     </div>
 </body>
 
