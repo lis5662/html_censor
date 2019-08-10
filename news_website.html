@@ -7,7 +7,6 @@
 
     <style>
         .box {
-            border: 2px solid black;
             padding: 10px;
             text-align: center;
             font-weight: bold;
@@ -20,14 +19,11 @@
         
         .adbanner {
             background: white;
-            text-align: center;
-            padding: 5px;
         }
         
         .navbar {
             margin: 5px;
             padding: 5px;
-            border: 2px solid black;
             text-align: center;
             word-spacing: 50px;
             background: white;
@@ -44,46 +40,33 @@
             color: gray;
         }
         
+        .navbar a:hover {
+            text-decoration: none;
+            color: #f45619;
+        }
+        
         .subnav {
             background: coral;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
         
         .logosearch {
             background: purple;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
         
         .topic {
             background: green;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
         
         .politics {
             background: red;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
         
         .blogs {
             background: chocolate;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
         
         .business {
             background: aquamarine;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
         }
     </style>
 
@@ -96,21 +79,21 @@
             <img class="adbanner" src="images/Stone-island-top-view-sea-waves_1920x1080.jpg">
         </div>
 
-        <div class="nav">
+        <div class="nav" class="box">
             <ul class="navbar">
-                <li><a href="">Бизнес</a></li>
-                <li><a href="">Война</a></li>
-                <li><a href="">Блоги</a></li>
-                <li><a href="">Курс-Валют</a></li>
-                <li><a href="">Биржа</a></li>
+                <li><a href="#">Бизнес</a></li>
+                <li><a href="#">Война</a></li>
+                <li><a href="#">Блоги</a></li>
+                <li><a href="#">Курс-Валют</a></li>
+                <li><a href="#">Биржа</a></li>
             </ul>
         </div>
-        <div class="subnav">sub nav</div>
-        <div class="logosearch">Logo and Search(Header)</div>
-        <div class="topic">Topic of the day</div>
-        <div class="politics">Politics</div>
-        <div class="blogs">Blogs</div>
-        <div class="business">Business</div>
+        <div class="box subnav">sub nav</div>
+        <div class="box logosearch">Logo and Search(Header)</div>
+        <div class="box topic">Topic of the day</div>
+        <div class="box politics">Politics</div>
+        <div class="box blogs">Blogs</div>
+        <div class="box business">Business</div>
     </div>
 </body>
 
