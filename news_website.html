@@ -6,32 +6,70 @@
     <title>Website structure</title>
 
     <style>
-    .box {
-        background: white;
-        border: 2px solid black;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
-        font-weight: bold;
-
-    }
-    .wrapper {
-        width: 960px;
-        margin: 0 auto;
-    }
-
-    #navbar {
-        margin: 5px;
-        padding: 5px;
-        border: 2px solid black;
-        border-radius: 10px;
-        text-align: center;
-        word-spacing: 50px;
-    }
-
-    #navbar li {
-        display: inline;
-    }    
+        .box {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font: Arial;
+        }
+        
+        .wrapper {
+            width: 1005px;
+            margin: 0 auto;
+        }
+        
+        .adbanner {
+            background: white;
+            display: block;
+            margin: auto;
+        }
+        
+        .navbar {
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            word-spacing: 50px;
+            background: white;
+            font-size: 130%;
+        }
+        
+        .navbar li {
+            display: inline;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: gray;
+        }
+        
+        .navbar a:hover {
+            text-decoration: none;
+            color: #f45619;
+        }
+        
+        .subnav {
+            background: coral;
+        }
+        
+        .logosearch {
+            background: purple;
+        }
+        
+        .topic {
+            background: green;
+        }
+        
+        .politics {
+            background: red;
+        }
+        
+        .blogs {
+            background: chocolate;
+        }
+        
+        .business {
+            background: aquamarine;
+        }
     </style>
 
 </head>
@@ -39,23 +77,26 @@
 
 <body>
     <div class="wrapper">
-        <div class="box">Ad Banner</div>
-        <div class="nav">
-            <ul id="navbar">
-            <li><a href="#">Бизнес</a></li>
-            <li><a href="#">Война</a></li>
-            <li><a href="#">Блоги</a></li>
-            <li><a href="#">Курс-Валют</a></li>
-            <li><a href="#">Биржа</a></li>
+        <div class="adbanner">
+            <img class="adbanner" src="images/Stone-island-top-view-sea-waves_1920x1080.jpg">
+        </div>
+
+        <div class="nav" class="box">
+            <ul class="navbar">
+                <li><a href="#">Бизнес</a></li>
+                <li><a href="#">Война</a></li>
+                <li><a href="#">Блоги</a></li>
+                <li><a href="#">Курс-Валют</a></li>
+                <li><a href="#">Биржа</a></li>
             </ul>
-            </div>
-        <div class="box">sub nav</div>
-        <div class="box">Logo and Search(Header)</div>
-        <div class="box">Topic of the day</div>
-        <div class="box">Politics</div>
-        <div class="box">Blogs</div>
-        <div class="box">Business</div>
-    </div>    
+        </div>
+        <div class="box subnav">sub nav</div>
+        <div class="box logosearch">Logo and Search(Header)</div>
+        <div class="box topic">Topic of the day</div>
+        <div class="box politics">Politics</div>
+        <div class="box blogs">Blogs</div>
+        <div class="box business">Business</div>
+    </div>
 </body>
 
 
