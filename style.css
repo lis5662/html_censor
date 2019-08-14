@@ -1,0 +1,64 @@
+.box {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font: Arial;
+}
+
+.wrapper {
+    width: 1005px;
+    margin: 0 auto;
+}
+
+.adbanner {
+    background: white;
+    display: block;
+    margin: auto;
+}
+
+.navbar {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    word-spacing: 50px;
+    background: white;
+    font-size: 130%;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #f45619;
+}
+
+.subnav {
+    background: coral;
+}
+
+.logosearch {
+    background: purple;
+}
+
+.topic {
+    background: green;
+}
+
+.politics {
+    background: red;
+}
+
+.blogs {
+    background: chocolate;
+}
+
+.business {
+    background: aquamarine;
+}
