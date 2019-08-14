@@ -17,8 +17,8 @@
 }
 
 .navbar {
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     text-align: center;
     word-spacing: 50px;
     background: white;
@@ -40,11 +40,64 @@
 }
 
 .subnav {
-    background: coral;
+    padding: 1px;
+    margin: 5px;
+    text-align: center;
+    word-spacing: 15px;
+    background: white;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray
+}
+
+.subnav li {
+    display: inline;
+}
+
+.subnav a {
+    color: black;
+    border-right: 2px solid black;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+.subnav a:hover {
+    text-decoration: none;
+    color: #f45619;
 }
 
 .logosearch {
-    background: purple;
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+}
+
+.logosearch p {
+    font-size: 12px;
+    color: gray;
+    margin: auto;
+}
+
+.logosearch_search {
+    margin-right: 50%;
+    margin-left: 82%;
+    padding: 5px;
+}
+
+.logosearch li {
+    margin-left: 82%;
+    display: inline;
+    text-decoration: none;
+}
+
+.logosearch a {
+    color: black;
+    color: gray;
+    text-decoration: none;
+}
+
+.logosearch a:hover {
+    color: #f45619;
 }
 
 .topic {
