@@ -1,5 +1,4 @@
 .box {
-    padding: 10px;
     text-align: center;
     font-weight: bold;
     font: Arial;
@@ -17,8 +16,6 @@
 }
 
 .navbar {
-    margin: 2px;
-    padding: 2px;
     text-align: center;
     word-spacing: 50px;
     background: white;
@@ -40,8 +37,7 @@
 }
 
 .subnav {
-    padding: 1px;
-    margin: 5px;
+    margin: auto;
     text-align: center;
     word-spacing: 15px;
     background: white;
@@ -105,17 +101,21 @@
     margin: 0 auto;
     text-align: center;
     background:lightgray;
-    
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .topic li {
     display: inline;
+    
 }
 
 .topic a {
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
+   
+    
 }
 
 .topic a:hover {
