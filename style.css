@@ -96,35 +96,6 @@
     .login a:hover {
         color: #f45619;
     }
-    /*.logosearch p {
-    font-size: 12px;
-    color: gray;
-    margin: auto;
-}
-
-.logosearch_search {
-    margin-right: 50%;
-    margin-left: 82%;
-    padding: 5px;
-}
-
-.logosearch li {
-    margin-left: 82%;
-    display: inline;
-    text-decoration: none;
-}
-
-.logosearch a {
-    color: black;
-    color: gray;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-.logosearch a:hover {
-    color: #f45619;
-}
-*/
     
     .topic {
         margin: auto;
