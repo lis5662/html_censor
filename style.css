@@ -58,7 +58,6 @@
     }
     
     .subnav a:hover {
-        text-decoration: none;
         color: #f45619;
     }
     
@@ -73,6 +72,28 @@
     }
     
     .social a:hover {
+        color: #f45619;
+    }
+    
+    .search {
+        margin-left: 83%;
+    }
+    
+    .login {
+        margin-left: 83%;
+        font-size: 12px;
+    }
+    
+    .login li {
+        display: inline;
+    }
+    
+    .login a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .login a:hover {
         color: #f45619;
     }
     /*.logosearch p {
